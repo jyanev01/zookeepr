@@ -39,7 +39,7 @@ const getAnimals = (formData = {}) => {
       return response.json();
     })
     .then(animalData => {
-      console.log(animalDtata);
+      console.log(animalData);
       printResults(animalData);
     });
 };
